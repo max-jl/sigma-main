@@ -3,7 +3,7 @@ import axios, { AxiosResponse } from 'axios';
 
 export const my_context = createContext({});
 
-const server_url = "http://localhost:4000"
+const server_url = "https://sbhssigma.herokuapp.com"
 
 function Context(props: any) {
 

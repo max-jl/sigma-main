@@ -8,7 +8,7 @@ function Login() {
 
     // redirects to server to login
     const login = () => {
-        window.open("http://localhost:4000/login", "_self")
+        window.open("https://sbhssigma.herokuapp.com/login", "_self")
     }
 
     return (

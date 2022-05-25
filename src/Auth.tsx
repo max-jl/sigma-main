@@ -33,7 +33,7 @@
     .catch(() => {
         
         // redirects to server so users can get new tokens
-        window.open("http://localhost:4000/login", "_self");
+        window.open("https://sbhssigma.herokuapp.com/login", "_self");
 
     })
 
